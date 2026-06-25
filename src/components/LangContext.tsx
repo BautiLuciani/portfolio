@@ -54,7 +54,7 @@ const i18n = {
     step5_desc: 'Mantenimiento mensual, actualizaciones y soporte técnico continuo.',
 
     portfolio_tag: '// Portfolio',
-    portfolio_title: 'Proyectos reales',
+    portfolio_title: 'Proyectos recientes',
     portfolio_sub: 'Sitios en producción, construidos con diseño custom y código de calidad.',
     proj1_desc: 'Sitio corporativo para empresa de soluciones tecnológicas. Dark theme, animaciones con Framer Motion y sección de chatbot integrada.',
     proj2_desc: 'Portfolio de consultoría Oracle Analytics para LATAM. Diseño editorial con tipografía Playfair Display, paleta navy y rojo.',
@@ -129,7 +129,7 @@ const i18n = {
     step5_desc: 'Monthly maintenance, updates and ongoing technical support.',
 
     portfolio_tag: '// Portfolio',
-    portfolio_title: 'Real projects',
+    portfolio_title: 'Recent projects',
     portfolio_sub: 'Live sites, built with custom design and quality code.',
     proj1_desc: 'Corporate site for a tech solutions company. Dark theme, Framer Motion animations and integrated chatbot section.',
     proj2_desc: 'Oracle Analytics consulting portfolio for LATAM. Editorial design with Playfair Display typography, navy and red palette.',

@@ -37,7 +37,7 @@ export default function AboutSection() {
         {/* Columna derecha - Stats */}
         <div className="about-stats reveal" style={{ transitionDelay: '0.15s' }}>
           <div className="stat-card">
-            <div className="num">10+</div>
+            <div className="num">50+</div>
             <T tKey="stat1_lbl" as="div" className="lbl" />
             <div className="sub">→ aitech.com.ar · qcuatro.com</div>
           </div>
