@@ -7,10 +7,10 @@ import T from './AnimatedText'
 type TranslationKey = Parameters<ReturnType<typeof useLang>['t']>[0]
 
 const navLinks: { key: TranslationKey; id: string }[] = [
-  { key: 'nav_about',     id: 'sobre-mi'  },
-  { key: 'nav_services',  id: 'servicios' },
+  { key: 'nav_about', id: 'sobre-mi' },
+  { key: 'nav_services', id: 'servicios' },
   { key: 'nav_portfolio', id: 'portfolio' },
-  { key: 'nav_contact',   id: 'contacto'  },
+  { key: 'nav_contact', id: 'contacto' },
 ]
 
 export default function Nav() {
@@ -71,7 +71,10 @@ export default function Nav() {
     <div className="nav-wrapper">
       <nav>
         {/* Logo */}
-        <div className="nav-logo">BLB<span>.</span></div>
+        <div className="nav-logo" style={{ display: 'flex', alignItems: 'center'}}>
+          <img src="/logo.png" alt="BLB Logo" style={{ width: '46px', height: '46px' }} />
+          BLB<span>.</span>
+        </div>
 
         {/* Links desktop */}
         <ul className="nav-links">
